@@ -1,0 +1,1 @@
+escribe el codigo de una pagina web de un instituto ficticio que incluya informacion general, direccion y contacto unicamente en css y html.
