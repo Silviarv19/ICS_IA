@@ -30,3 +30,4 @@ En desarrollo: React deja de realizar comprobaciones adicionales, como ejecutar 
 desarrollo del navegador (pestaña Elementos).
 Es un Fragment de React. Permite agrupar varios elementos JSX sin añadir un elemento contenedor al DOM.
 Solo aparecen sus elemento hijos.
+
