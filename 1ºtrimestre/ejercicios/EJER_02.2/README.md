@@ -1,30 +1,3 @@
-1.1 
-// Uso en App.jsx
-<Saludo nombreAlumno="Lucía" />
-
-// Saludo.jsx
-export function Saludo({ nombre }) {
-  return<p>¡Hola, {nombre}!</p>;
-}
-El error es que primero pone "nombreAlumno" y después "nombre", debería poner lo mismo todas las veces que se haga referencia a ello
-
-
-1.2
-export function Interruptor() {
-  const [encendido, setEncendido] = useState(false);
-  return (
-    <button onClick={() => (encendido = !encendido)}>
-      {encendido ? 'Apagar' : 'Encender'}
-    </button>
-  );
-}
-En el onClick debería usar setEncendido en vez de encendido
-
-1.3
-export function Contador() {
-  const [valor, setValor] = useState(0);
-  return<button onClick={setValor(valor + 1)}>Pulsado {valor} veces</button>;
-}
 En el onClick para hacer valor +1 hay que hacerlo con una función y no directamente
 
 1.4
